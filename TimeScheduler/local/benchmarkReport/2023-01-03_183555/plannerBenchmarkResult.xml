@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><plannerBenchmarkResult>
+  <name>2023-01-03_183555</name>
+  <aggregation>false</aggregation>
+  <availableProcessors>4</availableProcessors>
+  <loggingLevelOptaPlannerCore>INFO</loggingLevelOptaPlannerCore>
+  <loggingLevelDroolsCore>INFO</loggingLevelDroolsCore>
+  <maxMemory>2126512128</maxMemory>
+  <optaPlannerVersion>8.31.0.Final</optaPlannerVersion>
+  <javaVersion>Java 11.0.6 (JetBrains s.r.o)</javaVersion>
+  <javaVM>Java OpenJDK 64-Bit Server VM 11.0.6+8-b520.43 (JetBrains s.r.o)</javaVM>
+  <operatingSystem>Windows 10 amd64 10.0</operatingSystem>
+  <parallelBenchmarkCount>1</parallelBenchmarkCount>
+  <warmUpTimeMillisSpentLimit>30</warmUpTimeMillisSpentLimit>
+  <solverBenchmarkResult>
+    <name>Config_0</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>lv.lu.df.combopt.timeplanner.domain.AimSchedule</solutionClass>
+      <entityClass>lv.lu.df.combopt.timeplanner.domain.Aim</entityClass>
+      <entityClass>lv.lu.df.combopt.timeplanner.domain.Activity</entityClass>
+      <scoreDirectorFactory>
+        <constraintProviderClass>lv.lu.df.combopt.timeplanner.score.AimSchedulerConstraintProvider</constraintProviderClass>
+        <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
+      </scoreDirectorFactory>
+      <termination>
+        <terminationCompositionStyle>OR</terminationCompositionStyle>
+        <unimprovedSecondsSpentLimit>5</unimprovedSecondsSpentLimit>
+        <bestScoreLimit>0hard/0soft</bestScoreLimit>
+      </termination>
+      <constructionHeuristic>
+        <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+      </constructionHeuristic>
+      <localSearch/>
+    </solverConfig>
+    <singleBenchmarkResult id="1">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>14001168</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-7soft</score>
+        <timeMillisSpent>5115</timeMillisSpent>
+        <scoreCalculationCount>110458</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>Problem_0</name>
+    <instanceProblemProvider/>
+    <writeOutputSolutionEnabled>false</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>1</singleBenchmarkResult>
+    <entityCount>18</entityCount>
+    <variableCount>12</variableCount>
+    <maximumValueCount>6</maximumValueCount>
+    <problemScale>78</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>1</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <startingTimestamp>2023-01-03T18:35:55.7962925+02:00</startingTimestamp>
+  <benchmarkTimeMillisSpent>7235</benchmarkTimeMillisSpent>
+</plannerBenchmarkResult>

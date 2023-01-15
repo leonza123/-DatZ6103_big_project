@@ -1,0 +1,172 @@
+{
+  "aims": [{
+    "id": "aim1",
+    "activity": null,
+    "person": "Andy D.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 0 ],
+      "endTime" : [ 9, 30 ]
+    }
+  },{
+    "id": "aim2",
+    "activity": null,
+    "person": "Andy D.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 30 ],
+      "endTime" : [ 10, 0 ]
+    }
+  },{
+    "id": "aim3",
+    "activity": null,
+    "person": "Andy D.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 0 ],
+      "endTime" : [ 10, 30 ]
+    }
+  },{
+    "id": "aim4",
+    "activity": null,
+    "person": "Andy D.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 30 ],
+      "endTime" : [ 11, 0 ]
+    }
+  },{
+    "id": "aim5",
+    "activity": null,
+    "person": "Evan C.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 0 ],
+      "endTime" : [ 9, 30 ]
+    }
+  },{
+    "id": "aim6",
+    "activity": null,
+    "person": "Evan C.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 30 ],
+      "endTime" : [ 10, 0 ]
+    }
+  },{
+    "id": "aim7",
+    "activity": null,
+    "person": "Evan C.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 0 ],
+      "endTime" : [ 10, 30 ]
+    }
+  },{
+    "id": "aim8",
+    "activity": null,
+    "person": "Evan C.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 30 ],
+      "endTime" : [ 11, 0 ]
+    }
+  },{
+    "id": "aim9",
+    "activity": null,
+    "person": "Anna V.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 0 ],
+      "endTime" : [ 9, 30 ]
+    }
+  },{
+    "id": "aim10",
+    "activity": null,
+    "person": "Anna V.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 30 ],
+      "endTime" : [ 10, 0 ]
+    }
+  },{
+    "id": "aim11",
+    "activity": null,
+    "person": "Anna V.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 0 ],
+      "endTime" : [ 10, 30 ]
+    }
+  },{
+    "id": "aim12",
+    "activity": null,
+    "person": "Anna V.",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 30 ],
+      "endTime" : [ 11, 0 ]
+    }
+  }],
+  "persons": [{
+    "name": "Andy D."
+  },{
+    "name": "Evan C."
+  },{
+    "name": "Anna V."
+  }],
+  "timeSlots": [{
+    "idk": 1,
+    "date" : [ 2022, 12, 1 ],
+    "startTime" : [ 9, 0 ],
+    "endTime" : [ 9, 30 ]
+  },{
+    "idk": 2,
+    "date" : [ 2022, 12, 1 ],
+    "startTime" : [ 9, 30 ],
+    "endTime" : [ 10, 0 ]
+  },{
+    "idk": 3,
+    "date" : [ 2022, 12, 1 ],
+    "startTime" : [ 10, 0 ],
+    "endTime" : [ 10, 30 ]
+  },{
+    "idk": 4,
+    "date" : [ 2022, 12, 1 ],
+    "startTime" : [ 10, 30 ],
+    "endTime" : [ 11, 0 ]
+  }],
+  "activities": [{
+    "title": "Activity2",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 10 ],
+      "endTime" : [ 9, 20 ]
+    }
+  },{
+    "title": "Activity3",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 9, 10 ],
+      "endTime" : [ 9, 25 ]
+    }
+  },{
+    "title": "Activity4",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 10 ],
+      "endTime" : [ 10, 55 ]
+    }
+  },{
+    "title": "Activity5",
+    "timeSlot": {
+      "date" : [ 2022, 12, 1 ],
+      "startTime" : [ 10, 20 ],
+      "endTime" : [ 10, 50 ]
+    }
+  },{
+    "title": "Activity0",
+    "timeSlot": null
+  }],
+  "score": null
+}
